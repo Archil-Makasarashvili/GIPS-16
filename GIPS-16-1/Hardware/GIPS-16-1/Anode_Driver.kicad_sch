@@ -1124,7 +1124,7 @@
 		(dnp no)
 		(uuid "234f161a-40e7-47d6-b9c0-4227a7ac68e5")
 		(property "Reference" "R6"
-			(at 114.554 117.348 90)
+			(at 114.554 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
