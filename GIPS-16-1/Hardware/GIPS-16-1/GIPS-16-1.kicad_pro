@@ -467,7 +467,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -661,7 +661,7 @@
         "uuid": "b7fa559f-077f-43a6-9232-79c3a6132fcf"
       }
     ],
-    "used_designators": "U1-2,D1,SW1,R48,J1,Q1",
+    "used_designators": "#PWR1-4,#PWR7,#PWR25-26,#PWR37-48,#PWR52-55,C1,C8-9,R1,R48,R58-60,R64-70,J1,IC1,Q1,SW1-2,U2,U4-5,TR1,H1-3",
     "variants": []
   },
   "sheets": [
@@ -670,40 +670,24 @@
       "GIPS-16-1"
     ],
     [
-      "4d5e62bd-95a3-4da9-bc58-9a32fda54c9d",
-      "Anode_Driver_0"
+      "d8dc08e8-5520-40b3-aed7-bc056e5b491f",
+      "MCU"
     ],
     [
       "1d3ea9d6-346b-45ee-95a9-a7df0b594715",
       "Anode_Driver_1"
     ],
     [
-      "b30df844-c8cf-45a5-b313-397b110541d4",
-      "Anode_Driver_2"
-    ],
-    [
-      "901b6886-cb5d-4f10-8be4-723aa56bb769",
-      "Anode_Driver_3"
-    ],
-    [
-      "7247dcbd-265e-4a7e-b5fa-117cb95dfa9d",
-      "Anode_Driver_4"
-    ],
-    [
-      "37c576c3-430f-41e0-8127-40a52f92be41",
-      "Anode_Driver_5"
-    ],
-    [
-      "db9247f7-6bd5-4ab2-bbf3-38618a811506",
-      "Anode_Driver_6"
-    ],
-    [
-      "8ff74ae1-8d8d-4096-81ca-75bf06cbdde9",
-      "Anode_Driver_7"
+      "ff864e6e-68ad-47a4-891c-c9c8bc038987",
+      "RTC"
     ],
     [
       "f4013407-4e7c-442f-ac43-554979247065",
       "Cathode_driver"
+    ],
+    [
+      "79e7df25-13e2-461a-becb-4ddb7f2dcd5e",
+      "Power"
     ]
   ],
   "text_variables": {},
