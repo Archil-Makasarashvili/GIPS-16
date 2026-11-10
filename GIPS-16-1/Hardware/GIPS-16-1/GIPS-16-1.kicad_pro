@@ -661,7 +661,7 @@
         "uuid": "b7fa559f-077f-43a6-9232-79c3a6132fcf"
       }
     ],
-    "used_designators": "#PWR1-4,#PWR7,#PWR25-26,#PWR37-48,#PWR52-55,C1,C8-9,R1,R48,R58-60,R64-70,J1,IC1,Q1,SW1-2,U2,U4-5,TR1,H1-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -683,7 +683,7 @@
     ],
     [
       "f4013407-4e7c-442f-ac43-554979247065",
-      "Cathode_driver"
+      "Cathode_Driver"
     ],
     [
       "79e7df25-13e2-461a-becb-4ddb7f2dcd5e",

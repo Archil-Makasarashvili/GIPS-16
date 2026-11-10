@@ -557,7 +557,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "f4013407-4e7c-442f-ac43-554979247065")
-		(property "Sheetname" "Cathode_driver"
+		(property "Sheetname" "Cathode_Driver"
 			(at 241.3 122.4784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -568,7 +568,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Cathode_driver.kicad_sch"
+		(property "Sheetfile" "Cathode_Driver.kicad_sch"
 			(at 241.3 131.3946 0)
 			(show_name no)
 			(do_not_autoplace no)
