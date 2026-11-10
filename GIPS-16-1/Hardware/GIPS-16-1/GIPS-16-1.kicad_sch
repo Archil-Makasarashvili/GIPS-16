@@ -504,7 +504,7 @@
 			)
 		)
 		(pin "Anode_[1..6]" input
-			(at 195.58 138.43 0)
+			(at 195.58 128.27 0)
 			(uuid "d4d177cb-0f19-49f3-ba1d-36936fe7bf00")
 			(effects
 				(font
@@ -542,8 +542,8 @@
 		)
 	)
 	(sheet
-		(at 241.3 123.19)
-		(size 27.94 7.62)
+		(at 236.22 144.78)
+		(size 38.1 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -556,9 +556,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "f4013407-4e7c-442f-ac43-554979247065")
+		(uuid "f8f41882-eaf8-4a8d-86c3-7415d7da3e4f")
 		(property "Sheetname" "Cathode_Driver"
-			(at 241.3 122.4784 0)
+			(at 236.22 144.0684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -569,7 +569,7 @@
 			)
 		)
 		(property "Sheetfile" "Cathode_Driver.kicad_sch"
-			(at 241.3 131.3946 0)
+			(at 236.22 154.2546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -580,8 +580,8 @@
 			)
 		)
 		(pin "In" input
-			(at 241.3 127 180)
-			(uuid "4e293b52-4e6c-4bd4-905f-de0b7e11f377")
+			(at 236.22 148.59 180)
+			(uuid "e317aa8a-efda-4bb1-8c99-e818d489581e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -590,8 +590,8 @@
 			)
 		)
 		(pin "Out" output
-			(at 269.24 127 0)
-			(uuid "3ee036f9-50c9-46b5-b798-d45713fdd459")
+			(at 274.32 148.59 0)
+			(uuid "d9d522b2-5b8e-4a78-a21c-a5de1407779e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -602,7 +602,7 @@
 		(instances
 			(project "GIPS-16-1"
 				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf"
-					(page "10")
+					(page "5")
 				)
 			)
 		)

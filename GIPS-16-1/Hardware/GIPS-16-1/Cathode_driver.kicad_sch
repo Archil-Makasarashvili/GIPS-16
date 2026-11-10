@@ -927,7 +927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16f28db4-4b46-4d0a-a480-72c4a10a70ac")
-		(property "Reference" "Q19"
+		(property "Reference" "Q2"
 			(at 87.63 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1018,8 +1018,8 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
-					(reference "Q19")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1037,7 +1037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b7292c4-4449-43e6-93f6-e1dc0b230305")
-		(property "Reference" "R53"
+		(property "Reference" "R5"
 			(at 133.35 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1100,8 +1100,8 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
-					(reference "R53")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1119,7 +1119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e86b1cb-889a-4667-8602-8369f7f5c8a7")
-		(property "Reference" "Q22"
+		(property "Reference" "Q3"
 			(at 133.35 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1210,8 +1210,8 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
-					(reference "Q22")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -1229,7 +1229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2009191d-ee1d-407e-8c37-f0709eab2fdf")
-		(property "Reference" "R57"
+		(property "Reference" "R12"
 			(at 224.79 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1292,8 +1292,8 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
-					(reference "R57")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1370,7 +1370,7 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -1448,7 +1448,7 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
 					(reference "#PWR031")
 					(unit 1)
 				)
@@ -1526,7 +1526,7 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
 					(reference "#PWR036")
 					(unit 1)
 				)
@@ -1545,7 +1545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d42ef2c-44de-4151-b831-1357abb3ffd5")
-		(property "Reference" "Q23"
+		(property "Reference" "Q4"
 			(at 179.07 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1636,8 +1636,8 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
-					(reference "Q23")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -1714,7 +1714,7 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
 					(reference "#PWR034")
 					(unit 1)
 				)
@@ -1792,7 +1792,7 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
 					(reference "#PWR033")
 					(unit 1)
 				)
@@ -1870,7 +1870,7 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
 					(reference "#PWR035")
 					(unit 1)
 				)
@@ -1888,7 +1888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dc2242b-c10f-4396-b459-e9530acb94a7")
-		(property "Reference" "R52"
+		(property "Reference" "R4"
 			(at 119.38 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1949,8 +1949,8 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
-					(reference "R52")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2027,7 +2027,7 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
 					(reference "#PWR028")
 					(unit 1)
 				)
@@ -2045,7 +2045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a490e146-d2f8-4757-aa60-99be20aa466e")
-		(property "Reference" "R56"
+		(property "Reference" "R8"
 			(at 210.82 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2106,8 +2106,8 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
-					(reference "R56")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2124,7 +2124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2d0b8d8-7c34-41f6-a78a-458de7700d2a")
-		(property "Reference" "R46"
+		(property "Reference" "R2"
 			(at 73.66 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2185,8 +2185,8 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
-					(reference "R46")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2204,7 +2204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdf456b0-2c73-42a5-a5bd-1d13016aaf3e")
-		(property "Reference" "Q24"
+		(property "Reference" "Q7"
 			(at 224.79 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2295,8 +2295,8 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
-					(reference "Q24")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -2373,7 +2373,7 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
 					(reference "#PWR032")
 					(unit 1)
 				)
@@ -2392,7 +2392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ede83742-8e52-4539-8cf1-1e169d12baf0")
-		(property "Reference" "R47"
+		(property "Reference" "R3"
 			(at 87.63 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2455,8 +2455,8 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
-					(reference "R47")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2473,7 +2473,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f82728a6-1bfc-41f7-a645-3f3d63265b3f")
-		(property "Reference" "R54"
+		(property "Reference" "R6"
 			(at 165.1 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2534,8 +2534,8 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
-					(reference "R54")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2553,7 +2553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffd0b3ba-ccc8-440a-b8c7-016465dcd41c")
-		(property "Reference" "R55"
+		(property "Reference" "R7"
 			(at 179.07 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2616,8 +2616,8 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f4013407-4e7c-442f-ac43-554979247065"
-					(reference "R55")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+					(reference "R7")
 					(unit 1)
 				)
 			)
