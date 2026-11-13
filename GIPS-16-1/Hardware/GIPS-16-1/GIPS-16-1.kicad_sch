@@ -105,6 +105,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus
+		(pts
+			(xy 195.58 147.32) (xy 209.55 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "672a4bd0-524d-445e-8a4e-92ea22d824f7")
+	)
 	(wire
 		(pts
 			(xy 166.37 149.86) (xy 152.4 149.86)
@@ -114,6 +124,16 @@
 			(type default)
 		)
 		(uuid "6b9a1b17-4a56-431c-bdb6-780319be3065")
+	)
+	(bus
+		(pts
+			(xy 195.58 128.27) (xy 209.55 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3104279-49a6-44e4-b73d-0d3fc05dbfe5")
 	)
 	(wire
 		(pts
@@ -127,7 +147,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 107.95 180.34 0)
+		(at 154.94 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -136,85 +156,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "071c8400-b00b-499a-8e6c-2be08a39a95e")
-		(property "Reference" "H1"
-			(at 110.49 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 110.49 181.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 107.95 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 129.54 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "286a2f49-97f3-4339-beb4-6c91ea542ed3")
+		(uuid "0ef60b49-f1d5-4abf-8c82-7378b712281c")
 		(property "Reference" "H2"
-			(at 132.08 179.0699 0)
+			(at 157.48 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -225,7 +169,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 132.08 181.6099 0)
+			(at 157.48 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -235,8 +179,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 129.54 180.34 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 154.94 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -247,7 +191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 180.34 0)
+			(at 154.94 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -258,7 +202,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 129.54 180.34 0)
+			(at 154.94 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -279,7 +223,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 152.4 180.34 0)
+		(at 128.27 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -289,8 +233,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba0c9aca-2eb5-492d-9b76-a4b8963d2ca5")
-		(property "Reference" "H3"
-			(at 154.94 179.0699 0)
+		(property "Reference" "H1"
+			(at 130.81 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -301,7 +245,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 154.94 181.6099 0)
+			(at 130.81 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -311,8 +255,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.4 180.34 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 128.27 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -323,7 +267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 180.34 0)
+			(at 128.27 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -334,7 +278,83 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 152.4 180.34 0)
+			(at 128.27 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "GIPS-16-1"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 177.8 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bafdbe43-1d2a-4918-9013-6c413cf372b6")
+		(property "Reference" "H3"
+			(at 180.34 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 180.34 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 177.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 177.8 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -354,8 +374,8 @@
 		)
 	)
 	(sheet
-		(at 241.3 106.68)
-		(size 27.94 7.62)
+		(at 209.55 124.46)
+		(size 43.18 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -370,7 +390,7 @@
 		)
 		(uuid "1d3ea9d6-346b-45ee-95a9-a7df0b594715")
 		(property "Sheetname" "Anode_Driver_1"
-			(at 241.3 105.9684 0)
+			(at 209.55 123.7484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -381,7 +401,7 @@
 			)
 		)
 		(property "Sheetfile" "Anode_Driver.kicad_sch"
-			(at 241.3 114.8846 0)
+			(at 209.55 132.6646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -391,9 +411,9 @@
 				(justify left top)
 			)
 		)
-		(pin "In" input
-			(at 241.3 110.49 180)
-			(uuid "7f4b9415-3a32-4f9c-ba3f-1b2ace93013d")
+		(pin "Anode_In_[1..7]" input
+			(at 209.55 128.27 180)
+			(uuid "0b12efb1-1afe-4222-b2fc-20e96ec58a36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,9 +421,9 @@
 				(justify left)
 			)
 		)
-		(pin "Out" output
-			(at 269.24 110.49 0)
-			(uuid "d095856c-fe88-4f72-9228-bf886a87aefb")
+		(pin "Anode_Out_[1..7]" input
+			(at 252.73 128.27 0)
+			(uuid "30ca1b7c-e9e6-460b-ad1a-b63a7ff6dfd2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -420,8 +440,74 @@
 		)
 	)
 	(sheet
-		(at 119.38 107.95)
-		(size 24.13 10.16)
+		(at 209.55 143.51)
+		(size 43.18 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3e3fa5fe-63a0-4343-b653-2b2054a890c8")
+		(property "Sheetname" "Cathode_Driver"
+			(at 209.55 142.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Cathode_Driver.kicad_sch"
+			(at 209.55 151.7146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Cathode_In_[1..4]" input
+			(at 209.55 147.32 180)
+			(uuid "fbc0dc7a-a14c-4cef-93ce-e87433fafc31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Cathode_Out_[1..4]" input
+			(at 252.73 147.32 0)
+			(uuid "b1aac052-2289-4a5e-a9f3-a355e3e54f2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "GIPS-16-1"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 114.3)
+		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -436,7 +522,7 @@
 		)
 		(uuid "79e7df25-13e2-461a-becb-4ddb7f2dcd5e")
 		(property "Sheetname" "Power"
-			(at 119.38 107.2384 0)
+			(at 127 113.5884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -447,7 +533,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 119.38 118.6946 0)
+			(at 127 125.0446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -503,7 +589,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Anode_[1..6]" input
+		(pin "Anode_[1..6]" output
 			(at 195.58 128.27 0)
 			(uuid "d4d177cb-0f19-49f3-ba1d-36936fe7bf00")
 			(effects
@@ -533,65 +619,9 @@
 				(justify left)
 			)
 		)
-		(instances
-			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 236.22 144.78)
-		(size 38.1 8.89)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "f8f41882-eaf8-4a8d-86c3-7415d7da3e4f")
-		(property "Sheetname" "Cathode_Driver"
-			(at 236.22 144.0684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Cathode_Driver.kicad_sch"
-			(at 236.22 154.2546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "In" input
-			(at 236.22 148.59 180)
-			(uuid "e317aa8a-efda-4bb1-8c99-e818d489581e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" output
-			(at 274.32 148.59 0)
-			(uuid "d9d522b2-5b8e-4a78-a21c-a5de1407779e")
+		(pin "Cathode_[1..4]" output
+			(at 195.58 147.32 0)
+			(uuid "40f29323-411a-453b-b966-01a885cfc4df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -602,7 +632,7 @@
 		(instances
 			(project "GIPS-16-1"
 				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf"
-					(page "5")
+					(page "2")
 				)
 			)
 		)

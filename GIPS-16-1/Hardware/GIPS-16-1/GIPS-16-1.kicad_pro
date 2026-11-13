@@ -661,7 +661,7 @@
         "uuid": "b7fa559f-077f-43a6-9232-79c3a6132fcf"
       }
     ],
-    "used_designators": "Q2-4,Q7,R2-8,R12",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -682,7 +682,7 @@
       "RTC"
     ],
     [
-      "f8f41882-eaf8-4a8d-86c3-7415d7da3e4f",
+      "3e3fa5fe-63a0-4343-b653-2b2054a890c8",
       "Cathode_Driver"
     ],
     [

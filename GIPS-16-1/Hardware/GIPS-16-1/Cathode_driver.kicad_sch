@@ -644,62 +644,156 @@
 		)
 	)
 	(junction
-		(at 130.81 72.39)
+		(at 139.7 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f851918-0522-4fd2-a11f-e56276c43de9")
+		(uuid "3c0e704e-bcfe-4fa7-8ed5-c3e5f63dbb07")
 	)
 	(junction
-		(at 222.25 72.39)
+		(at 139.7 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8d9fa995-6af7-4d1a-83ce-6af75637b84a")
+		(uuid "5d011876-b0c9-4b24-a3db-ddad7b6bf684")
 	)
 	(junction
-		(at 176.53 72.39)
+		(at 139.7 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e605c5e7-015d-4631-ad04-e6cd96b75380")
+		(uuid "8f9f10c2-06b0-4149-aec0-9e58c4347552")
 	)
 	(junction
-		(at 85.09 72.39)
+		(at 166.37 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e951ab12-7078-4373-b869-691c57d6ad01")
+		(uuid "b666907d-c646-4833-ba9e-8a4a23854dfb")
+	)
+	(junction
+		(at 106.68 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc9bfdb8-eaa7-4338-840b-3f2c29ee7e10")
+	)
+	(junction
+		(at 139.7 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7e539e4-396e-46a1-90d5-18e89c073949")
+	)
+	(bus_entry
+		(at 163.83 104.14)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072694cd-670a-426d-8103-6937a95364c5")
+	)
+	(bus_entry
+		(at 163.83 35.56)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18712378-9a25-4e11-a66c-e2eecb8ec364")
+	)
+	(bus_entry
+		(at 163.83 138.43)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f42a0c-61cd-4daa-a615-462e4e73d86d")
+	)
+	(bus_entry
+		(at 163.83 69.85)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe52993-e49d-4bff-b05c-0cc8706d2676")
+	)
+	(bus_entry
+		(at 109.22 109.22)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f71d4c0-7146-4a04-8520-508a3dd94a55")
+	)
+	(bus_entry
+		(at 109.22 40.64)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8dd171c-ee9d-4493-8396-0e0adbd96c39")
+	)
+	(bus_entry
+		(at 109.22 74.93)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28a6622-c339-4c66-ba2c-e3bde53b1a43")
+	)
+	(bus_entry
+		(at 109.22 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72f39ca-2294-4696-9c6b-a6bc0b526c8f")
 	)
 	(wire
 		(pts
-			(xy 199.39 77.47) (xy 207.01 77.47)
+			(xy 139.7 104.14) (xy 163.83 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "063ad311-8ff5-4cf5-9a11-57e613478fa8")
+		(uuid "04d9afb7-6152-422b-9498-cebfca564fcb")
 	)
 	(wire
 		(pts
-			(xy 130.81 72.39) (xy 143.51 72.39)
+			(xy 109.22 143.51) (xy 124.46 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36a8402d-164c-4467-b1ac-8ee656034ab5")
+		(uuid "2876a2cf-8c14-498f-af12-f16531ea9d46")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 222.25 72.39) (xy 234.95 72.39)
+			(xy 166.37 91.44) (xy 181.61 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e66fc35-1d71-4c33-9209-ab981b251479")
+		(uuid "4ed20d17-f604-4a6c-9442-c6789689694e")
+	)
+	(bus
+		(pts
+			(xy 106.68 43.18) (xy 106.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6283ed69-1a44-42a2-85bd-e96fac92dc4e")
 	)
 	(wire
 		(pts
-			(xy 62.23 77.47) (xy 69.85 77.47)
+			(xy 109.22 40.64) (xy 124.46 40.64)
 		)
 		(stroke
 			(width 0)
@@ -709,27 +803,77 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 72.39) (xy 189.23 72.39)
+			(xy 139.7 69.85) (xy 163.83 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a059098-8db1-4d14-a847-62728c152f40")
+		(uuid "6c63ea6d-0c03-4f69-829a-e7e6859da9da")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 107.95 77.47) (xy 115.57 77.47)
+			(xy 166.37 33.02) (xy 166.37 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be56b506-1920-47e5-a581-763c440f2391")
+		(uuid "85b0e49a-a986-496b-9ed7-fd47af78a5a1")
 	)
 	(wire
 		(pts
-			(xy 85.09 72.39) (xy 97.79 72.39)
+			(xy 139.7 138.43) (xy 163.83 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972acb0f-401d-45dd-84e7-43964fcfe619")
+	)
+	(wire
+		(pts
+			(xy 109.22 109.22) (xy 124.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98ab0cf-7209-4604-8579-b9234b8e51a9")
+	)
+	(bus
+		(pts
+			(xy 96.52 93.98) (xy 106.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0d38b4-1f60-4953-929f-af4b1f829781")
+	)
+	(bus
+		(pts
+			(xy 166.37 91.44) (xy 166.37 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf39c10e-9776-44e9-b633-76469776ba97")
+	)
+	(wire
+		(pts
+			(xy 109.22 74.93) (xy 124.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0166896-1068-4831-81ac-87bae03fcefb")
+	)
+	(wire
+		(pts
+			(xy 139.7 35.56) (xy 163.83 35.56)
 		)
 		(stroke
 			(width 0)
@@ -737,28 +881,18 @@
 		)
 		(uuid "d9851147-5410-40aa-a7e8-0a1b7fe87110")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 153.67 77.47) (xy 161.29 77.47)
+			(xy 106.68 93.98) (xy 106.68 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0707249-e24b-4f8a-aabb-c4e00628220f")
+		(uuid "dd537bc3-35e3-42de-af19-e3b371e1d520")
 	)
-	(label "In"
-		(at 203.2 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "009589f6-efa4-4e40-9a9b-c71cc40654fd")
-	)
-	(label "Out"
-		(at 88.9 72.39 0)
+	(label "Cathode_Out_1"
+		(at 148.59 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -767,18 +901,18 @@
 		)
 		(uuid "22add318-c6dc-48c1-86c4-183d35c4a39e")
 	)
-	(label "Out"
-		(at 226.06 72.39 0)
+	(label "Cathode_Out_2"
+		(at 148.59 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2b306723-a1a1-481a-b3ff-d150821f1a25")
+		(uuid "301a15d3-4039-4b4a-aa06-e28066795c6a")
 	)
-	(label "In"
-		(at 66.04 77.47 0)
+	(label "Cathode_In_1"
+		(at 110.49 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -787,137 +921,160 @@
 		)
 		(uuid "589f25b4-559b-4cd8-b85d-844d174bcadf")
 	)
-	(label "Out"
-		(at 134.62 72.39 0)
+	(label "Cathode_In_2"
+		(at 110.49 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "60297f85-03bb-4837-81a3-2c7845c2edea")
+		(uuid "7367918d-07b4-407a-b5e3-9abb8a92d21a")
 	)
-	(label "In"
-		(at 111.76 77.47 0)
+	(label "Cathode_Out_3"
+		(at 148.59 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d0001776-3f93-4c7c-b893-8ebff0f7dd28")
+		(uuid "85b000d6-41fc-464c-991a-aa409fdd8041")
 	)
-	(label "Out"
-		(at 180.34 72.39 0)
+	(label "Cathode_Out_4"
+		(at 148.59 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d8608f7d-c613-4372-badd-c0785523cd9c")
+		(uuid "9b6b9863-6753-4c3a-8bde-40ad13d41256")
 	)
-	(label "In"
-		(at 157.48 77.47 0)
+	(label "Cathode_In_4"
+		(at 110.49 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "da9e5843-f9c3-4985-9b18-e3f990cd23ae")
+		(uuid "bda48635-d75a-4fce-97a4-c836c8c66867")
 	)
-	(hierarchical_label "In"
-		(shape input)
-		(at 153.67 77.47 180)
+	(label "Cathode_In_3"
+		(at 110.49 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "0412b704-92e7-49ee-9fc9-e662d4503bbb")
+		(uuid "f2e05926-9c8a-4ff2-99bb-456ee23bbde9")
 	)
-	(hierarchical_label "In"
+	(hierarchical_label "Cathode_Out_[1..4]"
 		(shape input)
-		(at 199.39 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "591c7ad8-9d7d-4c02-9ea9-0000f1730569")
-	)
-	(hierarchical_label "In"
-		(shape input)
-		(at 107.95 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6596af6d-e1e5-4c42-8695-fbc80c5ac1fb")
-	)
-	(hierarchical_label "In"
-		(shape input)
-		(at 62.23 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d04cdfc0-9e74-40bc-8b76-f088dddd8bee")
-	)
-	(hierarchical_label "Out"
-		(shape output)
-		(at 97.79 72.39 0)
+		(at 181.61 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e96327dc-3f5f-4ab4-b856-91b9ff6111af")
+		(uuid "58e08717-d0f6-4c0f-8702-20f8d921ba42")
 	)
-	(hierarchical_label "Out"
-		(shape output)
-		(at 143.51 72.39 0)
+	(hierarchical_label "Cathode_In_[1..4]"
+		(shape input)
+		(at 96.52 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "f345f14e-fd4c-4cd6-96f9-4bb38b48914a")
+		(uuid "b645f000-95d8-43df-a88f-16f7e00a2e6f")
 	)
-	(hierarchical_label "Out"
-		(shape output)
-		(at 189.23 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0180337e-b153-487f-b0b3-f25290a174ae")
+		(property "Reference" "R4"
+			(at 128.27 72.644 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify left)
 		)
-		(uuid "f7346691-a8c1-4733-8429-35bae5a1d27e")
-	)
-	(hierarchical_label "Out"
-		(shape output)
-		(at 234.95 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Value" "1K"
+			(at 128.27 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify left)
 		)
-		(uuid "f86098f4-d9c8-43a2-ae64-b15425fae540")
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 128.27 76.708 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e91d48ef-40e9-4fbe-ac9f-cb12fcb8762e")
+		)
+		(pin "1"
+			(uuid "634df492-b976-49ec-9241-c2b31703fd67")
+		)
+		(instances
+			(project "GIPS-16-1"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Transistor_BJT:MMBTA42")
-		(at 82.55 77.47 0)
+		(at 137.16 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -928,7 +1085,7 @@
 		(fields_autoplaced yes)
 		(uuid "16f28db4-4b46-4d0a-a480-72c4a10a70ac")
 		(property "Reference" "Q2"
-			(at 87.63 76.1999 0)
+			(at 142.24 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -939,7 +1096,7 @@
 			)
 		)
 		(property "Value" "MMBTA42"
-			(at 87.63 78.7399 0)
+			(at 142.24 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -950,7 +1107,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 87.63 79.375 0)
+			(at 142.24 42.545 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -963,7 +1120,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
-			(at 82.55 77.47 0)
+			(at 137.16 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -975,7 +1132,7 @@
 			)
 		)
 		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
-			(at 82.55 77.47 0)
+			(at 137.16 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -986,7 +1143,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 82.55 77.47 0)
+			(at 137.16 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -997,7 +1154,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 82.55 77.47 0)
+			(at 137.16 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1018,7 +1175,7 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -1026,282 +1183,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b7292c4-4449-43e6-93f6-e1dc0b230305")
-		(property "Reference" "R5"
-			(at 133.35 67.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220K"
-			(at 133.35 69.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 129.032 68.58 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6dbfd9d6-50cb-4b76-9b47-1f04eb1af41d")
-		)
-		(pin "1"
-			(uuid "e42a2835-fd99-482b-a2e3-da0cdc53e56e")
-		)
-		(instances
-			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBTA42")
-		(at 128.27 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e86b1cb-889a-4667-8602-8369f7f5c8a7")
-		(property "Reference" "Q3"
-			(at 133.35 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBTA42"
-			(at 133.35 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 133.35 79.375 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
-			(at 128.27 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
-			(at 128.27 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 128.27 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 128.27 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "038675c3-203f-4e58-b4aa-d48f14ce72f3")
-		)
-		(pin "3"
-			(uuid "157cfa1d-1f0c-452c-a495-0755dd4b51af")
-		)
-		(pin "1"
-			(uuid "81c78bed-5643-4030-a6a7-8f03d1e70d65")
-		)
-		(instances
-			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 222.25 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2009191d-ee1d-407e-8c37-f0709eab2fdf")
-		(property "Reference" "R12"
-			(at 224.79 67.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220K"
-			(at 224.79 69.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 220.472 68.58 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 222.25 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fea63432-0c4d-4f65-a53f-6f839854fa73")
-		)
-		(pin "1"
-			(uuid "07757755-bb55-42ce-8078-acca287c3b3b")
-		)
-		(instances
-			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 85.09 82.55 0)
+		(at 139.7 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1312,7 +1195,7 @@
 		(fields_autoplaced yes)
 		(uuid "222bcd3f-0921-4910-bdc3-d40232f01483")
 		(property "Reference" "#PWR027"
-			(at 85.09 88.9 0)
+			(at 139.7 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1323,7 +1206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 87.63 0)
+			(at 139.7 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1333,7 +1216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 82.55 0)
+			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1344,7 +1227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 82.55 0)
+			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1355,7 +1238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 82.55 0)
+			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1370,7 +1253,7 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -1378,8 +1261,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 130.81 64.77 0)
+		(lib_id "Device:R")
+		(at 128.27 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1387,11 +1270,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ba3bbd4-9dd3-4d66-a200-bc65ed81a6b5")
-		(property "Reference" "#PWR031"
-			(at 130.81 68.58 0)
-			(hide yes)
+		(uuid "2ac7c835-efd4-44f4-89cb-77552ec8426c")
+		(property "Reference" "R8"
+			(at 128.27 141.224 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1400,8 +1281,8 @@
 				)
 			)
 		)
-		(property "Value" "+120V"
-			(at 130.81 59.69 0)
+		(property "Value" "1K"
+			(at 128.27 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1410,8 +1291,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 130.81 64.77 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 128.27 145.288 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1422,7 +1303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 64.77 0)
+			(at 128.27 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1432,8 +1313,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 130.81 64.77 0)
+		(property "Description" "Resistor"
+			(at 128.27 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1442,14 +1323,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "35485b52-9857-43ab-8272-ed16fe1ede22")
 		)
 		(pin "1"
-			(uuid "2c687224-565f-485b-a27f-003ee8656e8e")
+			(uuid "b4b8bb28-fda9-498d-b2fa-8e482c0cc122")
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
-					(reference "#PWR031")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -1457,7 +1341,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 82.55 0)
+		(at 139.7 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1466,9 +1350,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "654e881e-9cb7-4b25-a8ff-955d1cf94688")
-		(property "Reference" "#PWR036"
-			(at 222.25 88.9 0)
+		(uuid "3fd87031-f799-4663-832e-e52f45779a73")
+		(property "Reference" "#PWR034"
+			(at 139.7 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1479,7 +1363,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 87.63 0)
+			(at 139.7 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1489,7 +1373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 82.55 0)
+			(at 139.7 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1500,7 +1384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 82.55 0)
+			(at 139.7 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1511,7 +1395,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 82.55 0)
+			(at 139.7 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1522,12 +1406,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2404fad1-7d42-40ff-aa1d-ab52afa471ab")
+			(uuid "6d83ef28-105a-4448-9592-16347401d3c8")
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
-					(reference "#PWR036")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1535,7 +1419,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:MMBTA42")
-		(at 173.99 77.47 0)
+		(at 137.16 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1544,9 +1428,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6d42ef2c-44de-4151-b831-1357abb3ffd5")
+		(uuid "474d43a8-8ca8-4614-87b2-563e25157027")
 		(property "Reference" "Q4"
-			(at 179.07 76.1999 0)
+			(at 142.24 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1557,7 +1441,7 @@
 			)
 		)
 		(property "Value" "MMBTA42"
-			(at 179.07 78.7399 0)
+			(at 142.24 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1568,7 +1452,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 179.07 79.375 0)
+			(at 142.24 111.125 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1581,7 +1465,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
-			(at 173.99 77.47 0)
+			(at 137.16 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1593,7 +1477,7 @@
 			)
 		)
 		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
-			(at 173.99 77.47 0)
+			(at 137.16 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1604,7 +1488,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 173.99 77.47 0)
+			(at 137.16 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1615,7 +1499,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 173.99 77.47 0)
+			(at 137.16 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1626,17 +1510,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "e05c6b38-b245-4467-95fb-ad3ecdfe12fd")
+			(uuid "5d65187f-e527-4f14-8a33-a7cad86ba31d")
 		)
 		(pin "3"
-			(uuid "17db0e03-b5fe-4a16-beaa-50b15bf848f8")
+			(uuid "400dee7d-ed5c-4332-b3a7-6b73bda36b9f")
 		)
 		(pin "1"
-			(uuid "88c68511-df52-46f4-bc2e-2a494ba506c3")
+			(uuid "ba317f7b-7a0f-4b28-bdfc-1c2184a15805")
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
 					(reference "Q4")
 					(unit 1)
 				)
@@ -1644,242 +1528,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 176.53 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75cf8fbf-bfca-4719-a099-d7f8e958aefa")
-		(property "Reference" "#PWR034"
-			(at 176.53 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d5091380-a8e6-44e9-9975-15c9cb3867b2")
-		)
-		(instances
-			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 176.53 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83f27fd9-ea35-4406-a47f-9b49724a4f67")
-		(property "Reference" "#PWR033"
-			(at 176.53 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+120V"
-			(at 176.53 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 176.53 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "605c25cb-4ed6-48a6-b4bd-fe914cb3f2c7")
-		)
-		(instances
-			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 222.25 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96b4eb50-cfda-4d8a-a48f-c2ce333372d0")
-		(property "Reference" "#PWR035"
-			(at 222.25 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+120V"
-			(at 222.25 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 222.25 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3928b7e6-6193-4b19-9e9d-e9adbaea02b4")
-		)
-		(instances
-			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 119.38 77.47 90)
+		(at 139.7 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1887,29 +1537,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9dc2242b-c10f-4396-b459-e9530acb94a7")
-		(property "Reference" "R4"
-			(at 119.38 75.184 90)
+		(fields_autoplaced yes)
+		(uuid "55bcdbac-ebb2-4020-99d9-dd1717864d2c")
+		(property "Reference" "R12"
+			(at 142.24 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 119.38 80.01 90)
+		(property "Value" "220K"
+			(at 142.24 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 119.38 79.248 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 137.922 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1920,7 +1573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 77.47 0)
+			(at 139.7 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1931,7 +1584,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 77.47 0)
+			(at 139.7 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1942,15 +1595,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a12c7e93-b284-4d11-a7ca-dd97a5b8f021")
+			(uuid "8f232a8e-c5d4-4672-9e14-79f7e4ecb3ae")
 		)
 		(pin "1"
-			(uuid "96394028-b4c5-4018-9972-c75315df2e55")
+			(uuid "c000d1fd-f25b-4264-a291-a830c1ea686d")
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
-					(reference "R4")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1958,7 +1611,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 85.09 64.77 0)
+		(at 139.7 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1967,9 +1620,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a0d50d84-a75f-45b1-8ab6-ae2e39183983")
-		(property "Reference" "#PWR028"
-			(at 85.09 68.58 0)
+		(uuid "594b4355-c55f-4a94-8124-ddf62c2aff79")
+		(property "Reference" "#PWR035"
+			(at 139.7 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1980,7 +1633,7 @@
 			)
 		)
 		(property "Value" "+120V"
-			(at 85.09 59.69 0)
+			(at 139.7 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1990,7 +1643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 64.77 0)
+			(at 139.7 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2001,7 +1654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 64.77 0)
+			(at 139.7 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2012,7 +1665,398 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 85.09 64.77 0)
+			(at 139.7 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdef5bc7-4112-4fa8-b543-cba31968d59d")
+		)
+		(instances
+			(project "GIPS-16-1"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b4e8f25-8fc4-49e5-ba30-78652aa98cb7")
+		(property "Reference" "#PWR036"
+			(at 139.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26264eb6-8d7d-4d61-a059-f2e259bb85c4")
+		)
+		(instances
+			(project "GIPS-16-1"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 139.7 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c5407da-7192-4295-8231-e814acf43141")
+		(property "Reference" "#PWR031"
+			(at 139.7 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+120V"
+			(at 139.7 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 139.7 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b61a1ab8-f491-4572-9421-0125ebbfcd8c")
+		)
+		(instances
+			(project "GIPS-16-1"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7dd274f7-5780-4a13-b5b3-386d511cf753")
+		(property "Reference" "R6"
+			(at 128.27 106.934 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 128.27 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 128.27 110.998 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6eb0b7a3-6d6f-43c5-901b-e0f99f7e4660")
+		)
+		(pin "1"
+			(uuid "fc0085b8-9af6-4820-960d-cedb30f0f715")
+		)
+		(instances
+			(project "GIPS-16-1"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 139.7 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d9d8d04-dd4e-46b3-8509-67b1cc520e75")
+		(property "Reference" "#PWR033"
+			(at 139.7 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+120V"
+			(at 139.7 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 139.7 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39862fb4-54e8-4f74-ab83-4e9ecdc82ade")
+		)
+		(instances
+			(project "GIPS-16-1"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 139.7 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0d50d84-a75f-45b1-8ab6-ae2e39183983")
+		(property "Reference" "#PWR028"
+			(at 139.7 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+120V"
+			(at 139.7 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 139.7 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2027,7 +2071,7 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
 					(reference "#PWR028")
 					(unit 1)
 				)
@@ -2036,86 +2080,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 210.82 77.47 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a490e146-d2f8-4757-aa60-99be20aa466e")
-		(property "Reference" "R8"
-			(at 210.82 75.184 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 210.82 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 210.82 79.248 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "175bd520-40cd-45c0-bea6-554e7db6f54e")
-		)
-		(pin "1"
-			(uuid "0a768d42-43ee-432d-85de-885170589cc6")
-		)
-		(instances
-			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 77.47 90)
+		(at 128.27 40.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2125,7 +2090,7 @@
 		(dnp no)
 		(uuid "b2d0b8d8-7c34-41f6-a78a-458de7700d2a")
 		(property "Reference" "R2"
-			(at 73.66 75.184 90)
+			(at 128.27 38.354 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2135,7 +2100,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 73.66 80.01 90)
+			(at 128.27 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2145,7 +2110,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 73.66 79.248 90)
+			(at 128.27 42.418 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2156,7 +2121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 77.47 0)
+			(at 128.27 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2167,7 +2132,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 77.47 0)
+			(at 128.27 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2185,7 +2150,7 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
 					(reference "R2")
 					(unit 1)
 				)
@@ -2193,8 +2158,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBTA42")
-		(at 219.71 77.47 0)
+		(lib_id "Device:R")
+		(at 139.7 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2203,9 +2168,169 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bdf456b0-2c73-42a5-a5bd-1d13016aaf3e")
+		(uuid "b97dedd7-8708-486e-a0b1-25490470a994")
+		(property "Reference" "R7"
+			(at 142.24 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220K"
+			(at 142.24 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 137.922 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d56d0951-8f16-4643-ae4c-e0d354c38df6")
+		)
+		(pin "1"
+			(uuid "4de941fc-d1d0-4f15-a90e-6976b19dba68")
+		)
+		(instances
+			(project "GIPS-16-1"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c24a0f98-ed8c-4a80-b12f-6fdd8d2fd024")
+		(property "Reference" "#PWR032"
+			(at 139.7 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5da2a59-2d22-4a00-a7d8-ca982b4b12cd")
+		)
+		(instances
+			(project "GIPS-16-1"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 137.16 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c78522ac-1fc1-4081-92b0-6d00de783a17")
 		(property "Reference" "Q7"
-			(at 224.79 76.1999 0)
+			(at 142.24 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2216,7 +2341,7 @@
 			)
 		)
 		(property "Value" "MMBTA42"
-			(at 224.79 78.7399 0)
+			(at 142.24 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2227,7 +2352,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 224.79 79.375 0)
+			(at 142.24 145.415 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2240,7 +2365,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
-			(at 219.71 77.47 0)
+			(at 137.16 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2252,7 +2377,7 @@
 			)
 		)
 		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
-			(at 219.71 77.47 0)
+			(at 137.16 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2263,7 +2388,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 219.71 77.47 0)
+			(at 137.16 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2274,7 +2399,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 219.71 77.47 0)
+			(at 137.16 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2285,17 +2410,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "174b8a5c-fa36-4f68-8be1-b0d5081d9bf9")
+			(uuid "4590d40f-dcc6-4ee1-9fe2-5b703af18869")
 		)
 		(pin "3"
-			(uuid "d9081406-2090-4394-bb0c-bd48858e2152")
+			(uuid "1c2c4f95-9e62-4600-baa4-15342e903304")
 		)
 		(pin "1"
-			(uuid "2d98e0db-294b-490a-8d07-04a50463cf27")
+			(uuid "435f61f4-e7ee-42fe-9923-3a2cd40fe894")
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
 					(reference "Q7")
 					(unit 1)
 				)
@@ -2303,8 +2428,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 130.81 82.55 0)
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 137.16 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2313,9 +2438,56 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c95706cc-3d86-4759-b750-64266c5d04a0")
-		(property "Reference" "#PWR032"
-			(at 130.81 88.9 0)
+		(uuid "d3314d45-4132-48fa-8dfb-a9c221fabf3c")
+		(property "Reference" "Q3"
+			(at 142.24 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 142.24 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 142.24 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 137.16 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 137.16 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2325,18 +2497,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 130.81 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 82.55 0)
+		(property "Sim.Device" "NPN"
+			(at 137.16 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2346,8 +2508,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 130.81 82.55 0)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 137.16 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2357,24 +2519,19 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "2"
+			(uuid "b7d9cfab-6d9c-4319-8fe1-78552137c16f")
+		)
+		(pin "3"
+			(uuid "18a6d793-db23-417b-bab0-c3ab4aad0503")
 		)
 		(pin "1"
-			(uuid "96e881e8-1069-4a6a-bf3a-562e8fc1006d")
+			(uuid "2b76f38f-7f28-4b9a-902f-738cda40f651")
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
-					(reference "#PWR032")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -2382,7 +2539,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 68.58 0)
+		(at 139.7 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2393,7 +2550,7 @@
 		(fields_autoplaced yes)
 		(uuid "ede83742-8e52-4539-8cf1-1e169d12baf0")
 		(property "Reference" "R3"
-			(at 87.63 67.3099 0)
+			(at 142.24 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2404,7 +2561,7 @@
 			)
 		)
 		(property "Value" "220K"
-			(at 87.63 69.8499 0)
+			(at 142.24 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2415,7 +2572,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 83.312 68.58 90)
+			(at 137.922 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2426,7 +2583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 68.58 0)
+			(at 139.7 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2437,7 +2594,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 68.58 0)
+			(at 139.7 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2455,7 +2612,7 @@
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
 					(reference "R3")
 					(unit 1)
 				)
@@ -2464,86 +2621,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 165.1 77.47 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f82728a6-1bfc-41f7-a645-3f3d63265b3f")
-		(property "Reference" "R6"
-			(at 165.1 75.184 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 165.1 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 165.1 79.248 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 165.1 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ac452ef2-635d-410d-84d1-ec914e74a2d5")
-		)
-		(pin "1"
-			(uuid "ec9ff1c4-858d-40ce-9ca5-2a8c7ceafc43")
-		)
-		(instances
-			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 176.53 68.58 0)
+		(at 139.7 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2552,9 +2630,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ffd0b3ba-ccc8-440a-b8c7-016465dcd41c")
-		(property "Reference" "R7"
-			(at 179.07 67.3099 0)
+		(uuid "f6ccee8b-c32e-44c8-8931-5bb37cf6ac49")
+		(property "Reference" "R5"
+			(at 142.24 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2565,7 +2643,7 @@
 			)
 		)
 		(property "Value" "220K"
-			(at 179.07 69.8499 0)
+			(at 142.24 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2576,7 +2654,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 174.752 68.58 90)
+			(at 137.922 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2587,7 +2665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 68.58 0)
+			(at 139.7 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2598,7 +2676,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 68.58 0)
+			(at 139.7 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2609,15 +2687,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d06bc5e5-223b-4bfa-aaab-4705a1912b83")
+			(uuid "1c3db77f-cead-4f41-96c9-32ea92787449")
 		)
 		(pin "1"
-			(uuid "07365318-3914-4244-9ec3-6f668f16f897")
+			(uuid "fbc09819-984c-4293-b2ff-9298f10c153d")
 		)
 		(instances
 			(project "GIPS-16-1"
-				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/f8f41882-eaf8-4a8d-86c3-7415d7da3e4f"
-					(reference "R7")
+				(path "/b7fa559f-077f-43a6-9232-79c3a6132fcf/3e3fa5fe-63a0-4343-b653-2b2054a890c8"
+					(reference "R5")
 					(unit 1)
 				)
 			)
