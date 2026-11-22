@@ -995,6 +995,12 @@
 		(uuid "b30b5378-8f43-4c6c-b861-0d14037afac6")
 	)
 	(junction
+		(at 120.65 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b698fc11-6325-439a-926b-020d92d17b35")
+	)
+	(junction
 		(at 90.17 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1348,7 +1354,7 @@
 	)
 	(bus
 		(pts
-			(xy 186.69 157.48) (xy 50.8 157.48)
+			(xy 186.69 157.48) (xy 120.65 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1566,6 +1572,16 @@
 		)
 		(uuid "bd087cdf-dce5-47c1-b544-e61c8323d045")
 	)
+	(bus
+		(pts
+			(xy 120.65 157.48) (xy 50.8 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd424c3-3883-46c8-8cff-7e48c1f3bc71")
+	)
 	(wire
 		(pts
 			(xy 166.37 25.4) (xy 166.37 27.94)
@@ -1595,6 +1611,16 @@
 			(type default)
 		)
 		(uuid "d0647bfa-b73d-4871-93f6-34ce0db24c6a")
+	)
+	(bus
+		(pts
+			(xy 120.65 50.8) (xy 120.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d146175a-ac23-40f5-80e0-831b42b556df")
 	)
 	(wire
 		(pts
@@ -1847,7 +1873,7 @@
 		(uuid "fba2d0ad-72dd-4593-80f2-938b7abbb461")
 	)
 	(hierarchical_label "Anode_Out_[1..7]"
-		(shape input)
+		(shape output)
 		(at 264.16 130.81 0)
 		(effects
 			(font

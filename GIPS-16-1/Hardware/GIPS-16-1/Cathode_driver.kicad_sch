@@ -891,7 +891,7 @@
 		)
 		(uuid "dd537bc3-35e3-42de-af19-e3b371e1d520")
 	)
-	(label "Cathode_Out_1"
+	(label "Cathode_Out_0"
 		(at 148.59 35.56 0)
 		(effects
 			(font
@@ -901,7 +901,7 @@
 		)
 		(uuid "22add318-c6dc-48c1-86c4-183d35c4a39e")
 	)
-	(label "Cathode_Out_2"
+	(label "Cathode_Out_1"
 		(at 148.59 69.85 0)
 		(effects
 			(font
@@ -911,7 +911,7 @@
 		)
 		(uuid "301a15d3-4039-4b4a-aa06-e28066795c6a")
 	)
-	(label "Cathode_In_1"
+	(label "Cathode_In_0"
 		(at 110.49 40.64 0)
 		(effects
 			(font
@@ -921,7 +921,7 @@
 		)
 		(uuid "589f25b4-559b-4cd8-b85d-844d174bcadf")
 	)
-	(label "Cathode_In_2"
+	(label "Cathode_In_1"
 		(at 110.49 74.93 0)
 		(effects
 			(font
@@ -931,7 +931,7 @@
 		)
 		(uuid "7367918d-07b4-407a-b5e3-9abb8a92d21a")
 	)
-	(label "Cathode_Out_3"
+	(label "Cathode_Out_2"
 		(at 148.59 104.14 0)
 		(effects
 			(font
@@ -941,7 +941,7 @@
 		)
 		(uuid "85b000d6-41fc-464c-991a-aa409fdd8041")
 	)
-	(label "Cathode_Out_4"
+	(label "Cathode_Out_3"
 		(at 148.59 138.43 0)
 		(effects
 			(font
@@ -951,7 +951,7 @@
 		)
 		(uuid "9b6b9863-6753-4c3a-8bde-40ad13d41256")
 	)
-	(label "Cathode_In_4"
+	(label "Cathode_In_3"
 		(at 110.49 143.51 0)
 		(effects
 			(font
@@ -961,7 +961,7 @@
 		)
 		(uuid "bda48635-d75a-4fce-97a4-c836c8c66867")
 	)
-	(label "Cathode_In_3"
+	(label "Cathode_In_2"
 		(at 110.49 109.22 0)
 		(effects
 			(font
@@ -971,8 +971,8 @@
 		)
 		(uuid "f2e05926-9c8a-4ff2-99bb-456ee23bbde9")
 	)
-	(hierarchical_label "Cathode_Out_[1..4]"
-		(shape input)
+	(hierarchical_label "Cathode_Out_[0..3]"
+		(shape output)
 		(at 181.61 91.44 0)
 		(effects
 			(font
@@ -982,7 +982,7 @@
 		)
 		(uuid "58e08717-d0f6-4c0f-8702-20f8d921ba42")
 	)
-	(hierarchical_label "Cathode_In_[1..4]"
+	(hierarchical_label "Cathode_In_[0..3]"
 		(shape input)
 		(at 96.52 93.98 180)
 		(effects

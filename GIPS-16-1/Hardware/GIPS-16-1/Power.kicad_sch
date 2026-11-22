@@ -1852,6 +1852,39 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ESP32: 500mA max\nCH340C: 12mA max"
+		(exclude_from_sim no)
+		(at 103.886 26.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "093fd8b4-1b93-4de8-b01c-3057f5ca07bf")
+	)
+	(text "I'll take a closer look later"
+		(exclude_from_sim no)
+		(at 117.094 133.096 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57dd8eda-3451-4b72-b570-0c9c4ba61540")
+	)
+	(text "Replace with buck"
+		(exclude_from_sim no)
+		(at 68.072 52.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6508f6ce-8cb4-4c56-8143-0a4aa9334144")
+	)
 	(junction
 		(at 134.62 101.6)
 		(diameter 0)
