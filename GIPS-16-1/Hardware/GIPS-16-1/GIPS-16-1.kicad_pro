@@ -172,6 +172,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,6 +184,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +196,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -260,7 +263,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|990600|1117600|836ae078-b94c-4c13-a53a-e9a145daa1ff|f201d31d-6f85-45d4-9901-f4e30d8532ac|/b7fa559f-077f-43a6-9232-79c3a6132fcf/79e7df25-13e2-461a-becb-4ddb7f2dcd5e|/b7fa559f-077f-43a6-9232-79c3a6132fcf/79e7df25-13e2-461a-becb-4ddb7f2dcd5e|/b7fa559f-077f-43a6-9232-79c3a6132fcf/79e7df25-13e2-461a-becb-4ddb7f2dcd5e",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -468,8 +476,9 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -517,8 +526,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -661,7 +670,7 @@
         "uuid": "b7fa559f-077f-43a6-9232-79c3a6132fcf"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR40,#PWR43,#PWR62-64,#PWR89-90,#PWR94-99,BT1,C9,C13,C26-27,J2-3,M1,R60,R65,R76,SW4-5,U2,U6",
     "variants": []
   },
   "sheets": [
