@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "GIPS-16-1") (type "KiCad") (uri "${KIPRJMOD}/GIPS-16-1.pretty") (options "") (descr ""))
+)
