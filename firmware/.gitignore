@@ -1,0 +1,9 @@
+/build/
+/build-wsl/
+/build-win/
+/.idf-cache/
+/sdkconfig
+/sdkconfig.old
+/managed_components/
+/.vscode/
+/.clangd
